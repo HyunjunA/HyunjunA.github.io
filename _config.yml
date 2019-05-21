@@ -109,9 +109,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Hyunjun Choi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "I am a graduate student in USC."
   location         : "Somewhere"
   email            :
   links:
