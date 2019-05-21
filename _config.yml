@@ -112,14 +112,15 @@ analytics:
 # Site Author
 author:
   name             : "Hyunjun Choi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  # avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/thehg.jpg"
   bio              : "I am a graduate student in USC."
   # location         : "Somewhere"
   email            : "choirene@alumni.usc.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:choirene@alumni.usc.edu
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: mailto:choirene@alumni.usc.edu
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   url: "https://your-website.com"
