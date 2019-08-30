@@ -1,4 +1,19 @@
 ---
+<!-- layout: archive -->
+title: "Hyunjun Choi"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
+{% include base_path %}
+
+[Click to View My Up-to-date Curriculum Vitae [PDF]](https://docs.wixstatic.com/ugd/d91eda_d326aa006ee24eebb73e8a8771fdbd8a.pdf)
+
+<!-- <embed src="http://lantaoyu.com/files/lantaoyu_cv.pdf" width="650" height="1800" type='application/pdf'> -->
+
+<!-- ---
 layout: archive
 title: "CV"
 permalink: /cv/
@@ -56,4 +71,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
