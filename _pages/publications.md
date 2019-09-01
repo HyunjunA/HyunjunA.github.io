@@ -1,9 +1,11 @@
 ---
-title: "Publications [(Google Scholar Profile)](https://scholar.google.com/citations?user=Ixg9n-EAAAAJ&hl=en)"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
+<!-- title: "Publications [(Google Scholar Profile)](https://scholar.google.com/citations?user=Ixg9n-EAAAAJ&hl=en)"
+ -->
 
 
 <b>[Classification of Synthetic and Real Images Using Pattern Features](https://hyunjuna.github.io//publications/IPIU2014)</b> <br> 
