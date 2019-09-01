@@ -6,7 +6,7 @@ author_profile: true
 
 
 
-<b>[Classification of Synthetic and Real Images Using Pattern Features](http://lantaoyu.com/publications/MAAIRL)</b> <br> 
+<b>[Classification of Synthetic and Real Images Using Pattern Features](http://lantaoyu.com/publications/IPIU2014)</b> <br> 
 <b>Myeong Hui Ha</b>, Hyun jun Choi, Min Kook Choi, Sang Chul Lee.
 <i>The 26th Workshop on Image Processing and Image Understanding</i>. <b>IPIU 2014</b>.
 
