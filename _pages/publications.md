@@ -6,8 +6,8 @@ author_profile: true
 
 
 
-<b>[Classification of Synthetic and Real Images Using Pattern Features](http://lantaoyu.com/publications/IPIU2014)</b> <br> 
-<b>Myeong Hui Ha</b>, Hyun jun Choi, Min Kook Choi, Sang Chul Lee.
+<b>[Classification of Synthetic and Real Images Using Pattern Features](https://hyunjuna.github.io/IPIU2014)</b> <br> 
+Myeong Hui Ha, <b>Hyun jun Choi</b>, Min Kook Choi, Sang Chul Lee.
 <i>The 26th Workshop on Image Processing and Image Understanding</i>. <b>IPIU 2014</b>.
 
 <!-- <b>[CoT: Cooperative Training for Generative Modeling of Discrete Data](http://lantaoyu.com/publications/CoT)</b> <br>
@@ -50,4 +50,4 @@ Jun Wang, <b>Lantao Yu</b>, Weinan Zhang, Yu Gong, Yinghui Xu, Benyou Wang, Peng
 
 
 
-[\* denotes equal contribution]
+<!-- [\* denotes equal contribution] -->
