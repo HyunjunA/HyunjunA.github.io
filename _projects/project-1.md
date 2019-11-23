@@ -1,7 +1,9 @@
 ---
-title: "projects item number 1"
-excerpt: "Short description of projects item number 1<br/><img src='/images/500x300.png'>"
+title: "Visualization on datasets from the Correlates of Wars • DEC 2018"
+# excerpt: "Short description of projects item number 1<br/><img src='/images/500x300.png'>"
 collection: projects
 ---
 
-This is an item in your projects. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+We visualized military expenditures of top-10 spenders, information concerning militarized interstate disputes, wars, and international trade using datasets provided by the Correlates of Wars. A chart demonstrates the relationship between the number of countries at war and the total amount of international trade. We designed and developed the web application on Node.js, and front-end interface using Angular written in JavaScript and Bootstrap CSS framework. The responsive and interactive charts were implemented with D3.js to discover data features.
+
+Hyun Jun Choi, Shiv, Seun, Information Visualization on Wars and WorldTrade Datasets (2018) [Report, GitHub, Website]
