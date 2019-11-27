@@ -6,4 +6,4 @@ collection: projects
 
 We developed an Android application (in Java) for the USC community, which includes students, faculty, and alumni, to recommend good resources in the USC campus and share their extraordinary experiences. We used Firebase as the database to store all the data and resource.
 
-Hyun Jun Choi, Wanjin Li, Taoran Ju, Project Final Report (2017) [Report, GitHub]
+Hyun Jun Choi, Wanjin Li, Taoran Ju, Project Final Report (2017) [[Report](https://github.com/HyunjunA/INF551Fall17/blob/master/Final%20report/INF%20551%20Report.pdf), [GitHub](https://github.com/HyunjunA/INF551Fall17)]

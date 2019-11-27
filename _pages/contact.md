@@ -4,7 +4,7 @@ title: "Contact"
 permalink: /contact/
 author_profile: true
 ---
-Computer Science Department, University of Southern California<br>
-Los Angeles, CA 90007, USA<br>
-Email: choi797 [at] usc.edu
+School of Computing Science, University of Glasgow<br>
+18 Lilybank Gardens, Glasgow G12 8RZ, United Kingdom<br>
+Email: h.choi.1 [at] research.gla.ac.uk
 
