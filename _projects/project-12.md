@@ -6,4 +6,4 @@ collection: projects
 
 I implemented the K-means clustering and Gaussian Mixture Model with Matlab.
 
-Hyun Jun Choi [GitHub]
+Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF552KNNGMM)]

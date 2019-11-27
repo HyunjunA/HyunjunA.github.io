@@ -6,4 +6,4 @@ collection: projects
 
 I implemented the Hidden Markov Models with Matlab.
 
-Hyun Jun Choi [GitHub]
+Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF552HMM)]

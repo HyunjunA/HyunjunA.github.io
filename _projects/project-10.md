@@ -6,4 +6,4 @@ collection: projects
 
 I implemented the Perceptron learning, Pocket algorithm, Logistic regression, and Linear regression with Matlab.
 
-Hyun Jun Choi [GitHub]
+Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF552PLL)]

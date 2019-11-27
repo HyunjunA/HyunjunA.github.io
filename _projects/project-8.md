@@ -6,4 +6,4 @@ collection: projects
 
 I implemented the Support Vector Machines with Matlab.
 
-Hyun Jun Choi [GitHub]
+Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF552SVM)]

@@ -6,4 +6,4 @@ collection: projects
 
 I implemented a movie recommendation with matrix factorization approach and so on with Apache Spark.
 
-Hyun Jun Choi [GitHub]
+Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF553MF)]

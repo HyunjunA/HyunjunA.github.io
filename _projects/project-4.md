@@ -6,4 +6,4 @@ collection: projects
 
 I implemented the HITS with Apache Spark. I also made the spectral clusting with python.
 
-Hyun Jun Choi [GitHub]
+Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF553hitsp)]

@@ -6,4 +6,4 @@ collection: projects
 
 I implemented the Neural Network with Matlab and Python.
 
-Hyun Jun Choi [GitHub]
+Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF552NN)]

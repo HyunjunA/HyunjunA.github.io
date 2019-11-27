@@ -6,4 +6,4 @@ collection: projects
 
 I implemented the ID3 with Matlab.
 
-Hyun Jun Choi [GitHub]
+Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF552id3)]
