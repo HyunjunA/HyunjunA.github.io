@@ -82,12 +82,15 @@ analytics:
 author:
   name             : "Hyunjun Choi"
   avatar           : "IMG_0865.jpg"
-  bio              : "PhD student, Computing Science, University of Glasgow"
-  location         : "Glasgow, United Kingdom"
+  # bio              : "PhD student, Computing Science, University of Glasgow"
+  # location         : "Glasgow, United Kingdom"
+  bio              : "Master's student, Computer Science, University of Southern California"
+  location         : "Los Angeles, U.S."
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "h.choi.1@research.gla.ac.uk"
+  # email            : "h.choi.1@research.gla.ac.uk"
+  email            : "choi797@usc.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
