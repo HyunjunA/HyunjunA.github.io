@@ -12,7 +12,7 @@
 
     h1 {
       /* float: left ; */
-      color: rgb(6, 6, 187);
+      color: rgb(5, 5, 133);
       /* text-align: center; */
       text-align: start;
       font-family: serif;
@@ -30,11 +30,12 @@
 
     h2 {
       /* float: left ; */
-      color: rgb(81, 3, 170);
+      color: rgb(158, 4, 120);
       text-align: center;
       font-family: cursive;
       text-decoration-line: underline;
       text-decoration-style: double;
+      
       /* position: absolute; */
 
     }
@@ -66,6 +67,7 @@
       top: 450px;
       left: 600px;
       background-color: rgb(255, 255, 255);
+      cursor: pointer; 
     }
 
     a{
@@ -108,19 +110,25 @@
 
 
     section {
+      /* width: 960px; */
       width: 960px;
       /* margin: 0 auto; */
       /* margin-top:0px; */
       /* margin-right:10px; */
       /* margin-bottom:0px; */
       margin-left: 100px;
+      /* margin-right: 200px; */
+
 
     }
 
     #content {
       overflow-x: hidden;
+      overflow-y: hidden;
       /* height: 100%; */
       margin-bottom: 50px;
+      /* margin-left:10px;
+      margin-right:10px; */
 
     }
 
@@ -153,20 +161,23 @@
     .columnR,
     .columnL {
       /* background-color: #efefef; */
-      width: 460px;
+      width: 480px;
+      /* width: 430px; */
       float: left;
-      margin: 10px;
+      /* margin: 10px; */
     }
 
     #colL1,
     #colL3 {
-      background-color: #e7bc83;
-
+      background-color: #f7dfc1;
+      height: 350px;
+      
     }
 
     #colR2,
     #colR4 {
-      background-color: #6a94e4;
+      background-color: #adc2dd;
+      height: 350px;
 
     }
 
@@ -179,7 +190,8 @@
 
     img.aligh-left {
       float: none;
-      width: 440px;
+      width: 460px;
+      /* width: 460px; */
       height: 330px;
       margin: 10px;
     }
@@ -197,7 +209,8 @@
     p.aligh-left {
       float: none;
       text-align: left;
-      margin-top: 145px;
+      font-size: 20px;
+      /* margin-top: 145px; */
       /* margin-bottom: -50%; */
       /* transform: translate(-50%, -50%)  */
       /* width: 440px;
@@ -207,6 +220,23 @@
             margin-bottom: 100px; */
       /* margin-right: 10px; */
       /* margin-left: 10px; */
+    }
+    .innerBoxColR{
+        width: 370px;
+        height: 100px;
+        position: relative;
+        left:110px; 
+        top:90px;
+        /* border: 1px solid black ; */
+    }
+
+    .innerBoxColL{
+        width: 330px;
+        height: 100px;
+        position: relative;
+        left:0px; 
+        top:90px;
+        /* border: 1px solid black ; */
     }
 
     #header {
@@ -247,6 +277,8 @@
 
 
     }
+    
+    
   </style>
 
 
@@ -280,21 +312,22 @@
       <div id="main">
         <!-- <img src="Restaurant.jpg" alt="Italian" class="aligh-middle" id="resimage"> -->
         <div class="parallax"></div>
-        <p id="overwriting">Enjoy the Scenic View!!.</p>
+        <p id="overwriting"><b>Enjoy the Scenic View!!.</b></p>
         <button id="button1" type="reset" value="Reset">Book Your Researvation</button>
       </div>
       <h2>Explore Our Delicious Cuisines</h2>
       <!-- Italian -->
       <div class="article columnL" id="colL1">
 
-        <img src="italiancuisine.jpg" alt="Italian" class="aligh-left medium">
+        <img src="italiancuisine.jpg" alt="Italian" class="aligh-left medium" width="400px">
       </div>
       <div class="article columnR" id="colR1">
-        <p class="aligh-left"><span style="color: rgb(22, 141, 221)">Italy's finest:</span><br>From our Lasagna to our Protein Penne, we have delicious
-          options
-          for every
-          taste!</p>
-
+        <div class="innerBoxColR">
+            <p class="aligh-left"><span style="color: rgb(22, 141, 221)"><b>Italy's finest:</b></span><br>From our Lasagna to our Protein Penne, we have delicious
+            options
+            for every
+            taste!</p>
+        </div>
       </div>
 
     </div>
@@ -308,13 +341,13 @@
         </div> -->
       <!-- <h2>Explore Our Delicious Cuisines</h2> -->
       <div class="article columnR" id="colL2">
-
-        <p class="aligh-left"><span style="color: rgb(22, 141, 221)">India's Flavors:</span><br>Our dishes are blended with masterful savory spices</p>
-
+        <div class="innerBoxColL">
+        <p class="aligh-left"><span style="color: rgb(22, 141, 221)"><b>India's Flavors:</b></span><br>Our dishes are blended with masterful savory spices</p>
+      </div>
       </div>
       <div class="article columnL" id="colR2">
 
-        <img src="indiancuisine.jpg" alt="Italian" class="aligh-left medium">
+        <img src="indiancuisine.jpg" alt="Italian" class="aligh-left medium" width="400px">
 
       </div>
 
@@ -332,11 +365,12 @@
       <!-- <h2>Explore Our Delicious Cuisines</h2> -->
       <div class="article columnL" id="colL3">
 
-        <img src="Japanesecusine.jpg" alt="Italian" class="aligh-left medium">
+        <img src="Japanesecusine.jpg" alt="Italian" class="aligh-left medium" width="400px">
       </div>
       <div class="article columnR" id="colR3">
-        <p class="aligh-left"><span style="color: rgb(22, 141, 221)">Japanese Cuisine:</span><br>Delicious dining options from Sake to Sushi</p>
-
+        <div class="innerBoxColR">
+        <p class="aligh-left"><span style="color: rgb(22, 141, 221)"><b>Japanese Cuisine:</b></span><br>Delicious dining options from Sake to Sushi</p>
+      </div>
       </div>
 
     </div>
@@ -351,13 +385,13 @@
         </div> -->
       <!-- <h2>Explore Our Delicious Cuisines</h2> -->
       <div class="article columnR" id="colL4">
-
-        <p class="aligh-left"><span style="color: rgb(22, 141, 221)">Desserts:</span><br>From Italian Tiramisu to Indian Gulab Jamun</p>
-
+        <div class="innerBoxColL">
+        <p class="aligh-left"><span style="color: rgb(22, 141, 221)"><b>Desserts:</b></span><br>From Italian Tiramisu to Indian Gulab Jamun</p>
+          </div>
       </div>
       <div class="article columnL" id="colR4">
 
-        <img src="desserts.jpg" alt="Italian" class="aligh-left medium">
+        <img src="desserts.jpg" alt="Italian" class="aligh-left medium" width="400px">
 
       </div>
 
