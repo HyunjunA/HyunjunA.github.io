@@ -8,16 +8,18 @@
       font-family: Arial, Verdana, sans-serif;
       color: #665544;
       text-align: center;
-
     } */
 
     h1 {
       /* float: left ; */
       color: rgb(6, 6, 187);
-      text-align: center;
+      /* text-align: center; */
+      text-align: start;
       font-family: serif;
+      font-size: 40px;
       /* margin-top:0px; */
       /* margin-right:10px; */
+      margin-left: 430px;
       /* margin-bottom:0px; */
       /* margin-top:0px;
       margin-right:100px;
@@ -39,16 +41,17 @@
 
     #main {
       position: relative;
+      background-color: rgb(255, 255, 255);
     }
 
     #overwriting {
       color: rgb(245, 242, 214);
       font-family: serif;
-      font-size: 40px;
+      font-size: 60px;
       position: absolute;
       /* position: absolute;  */
-      top: 250px;
-      left: 250px;
+      top: 290px;
+      left: 204px;
     }
 
     #button1 {
@@ -60,20 +63,20 @@
       /* font-size: 30px; */
       position: absolute;
       /* position: absolute;  */
-      top: 350px;
+      top: 450px;
       left: 600px;
       background-color: rgb(255, 255, 255);
     }
 
     a{
-      float: left;
+        float: left;
       /* width: 960px; */
       /* left:300px; */
       /* color: #f2f2f2; */
       text-align: center;
-      padding: 5px 18px;
+      padding: 5px 8px;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 19px;
       /* background-color: rgb(247, 208, 137); */
       /* width: 100px; */
 
@@ -131,6 +134,7 @@
     #nav {
       /* width: 960px; */
       /* width:100%; */
+      font-family: 'Arial';
       height: 35px;
       padding-left: 0px;
       /* padding-top: 5px; */
@@ -188,16 +192,6 @@
       /* padding-left: -50px; */
       /* padding-right: -50px; */
       margin: -130px -130px 0 -130px;
-
-
-
-
-
-
-    }
-
-    #main {
-      background-color: rgb(255, 255, 255);
     }
 
     p.aligh-left {
@@ -223,14 +217,19 @@
 
     .parallax {
       width: 1190px;
-      height: 620px;
+      height: 720px;
       /* padding-left: -50px; */
       /* padding-right: -50px; */
       /* top margin is 25px
     right margin is 50px
     bottom margin is 75px
     left margin is 100px */
-      margin: -130px -190px 0 -100px;
+      /* margin: -130px -190px 0 -100px; */
+
+      margin-top: -180px;
+      margin-bottom: 30px;
+      /* margin-left: -300px; */
+      margin-right: -50px;
 
       /* The image used */
       background-image: url("Restaurant.jpg");
@@ -242,8 +241,9 @@
       background-attachment: fixed;
       /* background-position: bottom 250px right 130px; */
       background-repeat: no-repeat;
-      background-size: 1190px 620px;
+      background-size: 1090px 720px;
       overflow-x: hidden !important;
+      overflow-y: hidden !important;
 
 
     }
