@@ -16,7 +16,11 @@ redirect_from:
 * My research interests lie in the general area of machine learning, particularly in deep learning, reinforcement learning and probabilistic graphical models, as well as their applications in sequential decision making, generative modeling, natural language processing and multi-agent systems.
 * I received my Bachelor’s Degree in [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). My undergraduate research advisors are Prof. [Yong Yu](http://apex.sjtu.edu.cn/members/yyu), Prof. [Weinan Zhang](http://wnzhang.net/) and Prof. [Jun Wang](http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/). -->
 
-* I am a Master's student in the [Computer Science Department](https://cs.usc.edu/) at [University of Southern California](https://www.usc.edu/). [[Curriculum Vitae](http://hyunjuna.github.io/files/CV for Academia Version 13 - 3.pdf)]
+
+* I am a Master's student in the [Computer Science Department](https://cs.usc.edu/) at [University of Southern California](https://www.usc.edu/). [[Resume](http://hyunjuna.github.io/files/CHJResume.pdf)]
+
+
+<!-- * I am a Master's student in the [Computer Science Department](https://cs.usc.edu/) at [University of Southern California](https://www.usc.edu/). [[Curriculum Vitae](http://hyunjuna.github.io/files/CV for Academia Version 13 - 3.pdf)] -->
 
 <!-- * I am a PhD student in the [School of Computing Science](https://www.gla.ac.uk/schools/computing/) at [University of Glasgow](https://www.gla.ac.uk/), advised by Prof. [Iadh Ounis](https://scholar.google.com/citations?user=rKQMXOEAAAAJ&hl=en). [[Curriculum Vitae](http://hyunjuna.github.io/files/CV for Academia Version 13 - 3.pdf)]  -->
 
