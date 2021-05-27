@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-[Click to View My Up-to-date Curriculum Vitae [PDF]](http://hyunjuna.github.io/files/CV for Academia Version 13 - 3.pdf)
+[Click to View My Up-to-date Resume [PDF]](http://hyunjuna.github.io/files/CHJResume.pdf)
+
+<!-- [Click to View My Up-to-date Curriculum Vitae [PDF]](http://hyunjuna.github.io/files/CV for Academia Version 13 - 3.pdf) -->
 
 <!-- <embed src="http://lantaoyu.com/files/lantaoyu_cv.pdf" width="650" height="1800" type='application/pdf'> -->
 
