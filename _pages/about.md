@@ -16,7 +16,7 @@ redirect_from:
 * My research interests lie in the general area of machine learning, particularly in deep learning, reinforcement learning and probabilistic graphical models, as well as their applications in sequential decision making, generative modeling, natural language processing and multi-agent systems.
 * I received my Bachelor’s Degree in [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/). My undergraduate research advisors are Prof. [Yong Yu](http://apex.sjtu.edu.cn/members/yyu), Prof. [Weinan Zhang](http://wnzhang.net/) and Prof. [Jun Wang](http://web4.cs.ucl.ac.uk/staff/jun.wang/blog/). -->
 
-* I hold a master's degree in data informatics at USC, and currently pursuing a second master's degree in [Computer Science](https://cs.usc.edu/) at [University of Southern California](https://www.usc.edu/). [[Resume](http://hyunjuna.github.io/files/CHJResume.pdf)]
+* I hold a master's degree in data informatics at USC, and currently pursuing a second master's degree in [Computer Science](https://cs.usc.edu/) at [University of Southern California](https://www.usc.edu/). [[Resume](http://hyunjuna.github.io/files/Resume_HyunjunChoi_HRI.pdf)]
 
 
 <!-- * I am a Master's student in the [Computer Science Department](https://cs.usc.edu/) at [University of Southern California](https://www.usc.edu/). [[Curriculum Vitae](http://hyunjuna.github.io/files/CV for Academia Version 13 - 3.pdf)] -->
@@ -29,6 +29,8 @@ redirect_from:
 <!-- * My research interests lie in the general area of machine learning, particularly in deep learning, reinforcement learning and probabilistic graphical models, as well as their applications in sequential decision making, generative modeling, natural language processing and multi-agent systems. -->
 
 * My interests lie within entrepreneurship, machine learning, deep learning , and software engineering; more specifically, I have conducted research on computer vision and neural network. In recent days, I have been attracted to apply deep reinforcement learning to recommender systems. 
+
+<!-- * Methaphysics, entrepreneurship, machine learning, deep learning , and software engineering, metaverse.   -->
 
 * I received my Data Informatics Master's Degree in the [Computer Science Department](https://cs.usc.edu/) at [University of Southern California](https://www.usc.edu/), advised by Prof. [Greg Ver Steeg](https://scholar.google.com/citations?user=goLucoIAAAAJ&hl=en). I received my Bachelor’s Degree in [Inha University](http://eng.inha.ac.kr/mbshome/mbs/eng/index.do). My undergraduate research advisor is Prof. [Sang Chul Lee](http://imageinfo.inha.ac.kr/sclee/).
 
