@@ -1,9 +1,9 @@
 ---
-title: "CURE algorithm • MAR 2018"
-# excerpt: "Short description of projects item number 1<br/><img src='/images/500x300.png'>"
+title: "CURE Algorithm"
+date: "2018-03-10"
 collection: projects
+tech_tags: ["Python", "Clustering", "Data Mining"]
+github_url: "https://github.com/HyunjunA/INF553CURE"
 ---
 
 I implemented CURE algorithm with Python.
-
-Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF553CURE)]

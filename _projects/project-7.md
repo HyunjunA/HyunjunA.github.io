@@ -1,9 +1,9 @@
 ---
-title: "Neural Networks • NOV 2017"
-# excerpt: "Short description of projects item number 1<br/><img src='/images/500x300.png'>"
+title: "Neural Networks"
+date: "2017-11-15"
 collection: projects
+tech_tags: ["Matlab", "Python", "Neural Networks"]
+github_url: "https://github.com/HyunjunA/INF552NN"
 ---
 
 I implemented the Neural Network with Matlab and Python.
-
-Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF552NN)]

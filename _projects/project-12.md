@@ -1,9 +1,9 @@
 ---
-title: "K-means clustering and Gaussian Mixture Model • SEP 2017"
-# excerpt: "Short description of projects item number 1<br/><img src='/images/500x300.png'>"
+title: "K-means & Gaussian Mixture Model"
+date: "2017-09-01"
 collection: projects
+tech_tags: ["Matlab", "K-means", "GMM", "Clustering"]
+github_url: "https://github.com/HyunjunA/INF552KNNGMM"
 ---
 
 I implemented the K-means clustering and Gaussian Mixture Model with Matlab.
-
-Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF552KNNGMM)]
