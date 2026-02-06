@@ -1,9 +1,9 @@
 ---
-title: "Iterative Dichotomiser 3 (ID3) • SEP 2017"
-# excerpt: "Short description of projects item number 1<br/><img src='/images/500x300.png'>"
+title: "Iterative Dichotomiser 3 (ID3)"
+date: "2017-09-15"
 collection: projects
+tech_tags: ["Matlab", "Decision Trees", "ID3"]
+github_url: "https://github.com/HyunjunA/INF552id3"
 ---
 
-I implemented the ID3 with Matlab.
-
-Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF552id3)]
+I implemented the ID3 decision tree algorithm with Matlab.

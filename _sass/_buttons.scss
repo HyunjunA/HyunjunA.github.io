@@ -11,19 +11,21 @@
   display: inline-block;
   margin-bottom: 0.25em;
   padding: 0.5em 1em;
-  color: #fff !important;
+  color: $dark-text !important;
   font-family: $sans-serif;
   font-size: $type-size-6;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  background-color: $primary-color;
-  border: 0 !important;
+  background-color: $dark-surface-hover;
+  border: 1px solid $border-color !important;
   border-radius: $border-radius;
   cursor: pointer;
 
   &:hover {
-    background-color: mix(white, #000, 20%);
+    background-color: $dark-accent;
+    border-color: $dark-accent !important;
+    color: $dark-bg !important;
   }
 
   .icon {
@@ -48,20 +50,21 @@
   /* for dark backgrounds */
 
   &--inverse {
-    color: $gray !important;
-    border: 1px solid $light-gray !important; /* override*/
-    background-color: #fff;
+    color: $dark-text !important;
+    border: 1px solid $border-color !important; /* override*/
+    background-color: $dark-surface;
 
     &:hover {
-      color: #fff !important;
-      border-color: $gray;
+      color: $dark-bg !important;
+      border-color: $dark-accent !important;
+      background-color: $dark-accent;
     }
   }
 
   /* light outline */
 
   &--light-outline {
-    border: 1px solid #fff !important; /* override*/
+    border: 1px solid $dark-text-muted !important; /* override*/
     background-color: transparent;
   }
 
@@ -69,9 +72,11 @@
 
   &--info {
     background-color: $info-color;
+    border-color: $info-color !important;
+    color: $dark-bg !important;
 
     &:hover {
-      background-color: mix(#000, $info-color, 20%);
+      background-color: mix($dark-bg, $info-color, 20%);
     }
   }
 
@@ -79,9 +84,11 @@
 
   &--warning {
     background-color: $warning-color;
+    border-color: $warning-color !important;
+    color: $dark-bg !important;
 
     &:hover {
-      background-color: mix(#000, $warning-color, 20%);
+      background-color: mix($dark-bg, $warning-color, 20%);
     }
   }
 
@@ -89,9 +96,11 @@
 
   &--success {
     background-color: $success-color;
+    border-color: $success-color !important;
+    color: $dark-bg !important;
 
     &:hover {
-      background-color: mix(#000, $success-color, 20%);
+      background-color: mix($dark-bg, $success-color, 20%);
     }
   }
 
@@ -99,9 +108,11 @@
 
   &--danger {
     background-color: $danger-color;
+    border-color: $danger-color !important;
+    color: $dark-bg !important;
 
     &:hover {
-      background-color: mix(#000, $danger-color, 20%);
+      background-color: mix($dark-bg, $danger-color, 20%);
     }
   }
 
@@ -126,9 +137,10 @@
   @each $socialnetwork, $color in $social {
     &--#{$socialnetwork} {
       background-color: $color;
+      border-color: $color !important;
 
       &:hover {
-        background-color: mix(#000, $color, 20%);
+        background-color: mix($dark-bg, $color, 20%);
       }
     }
   }

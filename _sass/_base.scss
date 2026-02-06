@@ -14,6 +14,7 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+  background-color: $background-color;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -26,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
+  color: $dark-text;
 }
 
 h1 {
@@ -87,7 +89,7 @@ abbr[title],
 abbr[data-original-title] {
   text-decoration: none;
   cursor: help;
-  border-bottom: 1px dotted $text-color;
+  border-bottom: 1px dotted $dark-text-muted;
 }
 
 /* blockquotes */
@@ -98,6 +100,7 @@ blockquote {
   padding-right: 1em;
   font-style: italic;
   border-left: 0.25em solid $primary-color;
+  color: $dark-text-muted;
 
   cite {
     font-style: italic;
@@ -112,6 +115,16 @@ blockquote {
 /* links */
 
 a {
+  color: $link-color;
+
+  &:visited {
+    color: $link-color-visited;
+  }
+
+  &:hover {
+    color: $link-color-hover;
+  }
+
   &:focus {
     @extend %tab-focus;
   }
@@ -141,9 +154,9 @@ td > code {
   padding-bottom: 0.1rem;
   font-size: $type-size-6;
   background: $code-background-color;
-  border: 1px solid $lighter-gray;
+  border: 1px solid $border-color;
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  box-shadow: none;
 
   &:before, &:after {
     letter-spacing: -0.2em;
@@ -236,20 +249,20 @@ figure {
 
 figcaption {
   margin-bottom: 0.5em;
-  color: mix(#fff, $text-color, 25%);
+  color: $dark-text-muted;
   font-family: $caption-font-family;
   font-size: $type-size-6;
 
   a {
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid $light-gray;
+    border-bottom: 1px solid $border-color;
     -webkit-transition: $global-transition;
     transition: $global-transition;
 
     &:hover {
-      color: #000;
-      border-bottom-color: #000;
+      color: $dark-accent-hover;
+      border-bottom-color: $dark-accent-hover;
     }
   }
 }

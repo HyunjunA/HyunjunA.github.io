@@ -1,9 +1,9 @@
 ---
-title: "Android Application Development • MAY 2017"
-# excerpt: "Short description of projects item number 1<br/><img src='/images/500x300.png'>"
+title: "Android Application Development"
+date: "2017-05-01"
 collection: projects
+tech_tags: ["Android", "Java", "Firebase", "Mobile"]
+github_url: "https://github.com/HyunjunA/INF551Fall17"
 ---
 
 We developed an Android application (in Java) for the USC community, which includes students, faculty, and alumni, to recommend good resources in the USC campus and share their extraordinary experiences. We used Firebase as the database to store all the data and resource.
-
-Hyun Jun Choi, Wanjin Li, Taoran Ju, Project Final Report (2017) [[Report](https://github.com/HyunjunA/INF551Fall17/blob/master/Final%20report/INF%20551%20Report.pdf), [GitHub](https://github.com/HyunjunA/INF551Fall17)]

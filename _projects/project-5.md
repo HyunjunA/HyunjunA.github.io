@@ -1,9 +1,9 @@
 ---
-title: "Movie recommender system • MAR 2018"
-# excerpt: "Short description of projects item number 1<br/><img src='/images/500x300.png'>"
+title: "Movie Recommender System"
+date: "2018-03-15"
 collection: projects
+tech_tags: ["Apache Spark", "Python", "Matrix Factorization", "Recommender"]
+github_url: "https://github.com/HyunjunA/INF553MF"
 ---
 
-I implemented a movie recommendation with matrix factorization approach and so on with Apache Spark.
-
-Hyun Jun Choi [[GitHub](https://github.com/HyunjunA/INF553MF)]
+I implemented a movie recommendation with matrix factorization approach and other methods with Apache Spark.

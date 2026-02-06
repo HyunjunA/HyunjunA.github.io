@@ -1,0 +1,30 @@
+{% include base_path %}
+
+<div class="hero">
+  <div class="hero__inner">
+    {% if site.author.avatar %}
+    <div class="hero__avatar">
+      <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+    </div>
+    {% endif %}
+
+    <h1 class="hero__title">{{ site.author.name }}</h1>
+
+    {% if site.author.bio %}
+    <p class="hero__tagline">{{ site.author.bio }}</p>
+    {% endif %}
+
+    <div class="hero__tech-tags">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">Machine Learning</span>
+      <span class="tech-tag">Deep Learning</span>
+      <span class="tech-tag">Computer Vision</span>
+      <span class="tech-tag">Reinforcement Learning</span>
+    </div>
+
+    <div class="hero__cta">
+      <a href="{{ base_path }}/projects/" class="btn btn--large">View Projects</a>
+      <a href="{{ base_path }}/resume/" class="btn btn--large btn--light-outline">Resume</a>
+    </div>
+  </div>
+</div>
