@@ -1,10 +1,8 @@
 ---
-<!-- layout: archive -->
+layout: archive
 title: "Hyunjun Choi"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}

@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: "Hyunjun Choi"
 permalink: /resume/
 author_profile: true
