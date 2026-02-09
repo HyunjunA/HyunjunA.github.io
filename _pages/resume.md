@@ -8,4 +8,4 @@ redirect_from:
 
 {% include base_path %}
 
-[Click to View My Up-to-date Resume [PDF]](http://hyunjuna.github.io/files/CHJResume.pdf)
+[Click to View My Up-to-date Resume [PDF]](http://hyunjuna.github.io/files/RESUME_CHJ_102225.pdf)

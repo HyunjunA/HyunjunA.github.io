@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-* I hold a master's degree in data informatics at USC, and currently pursuing a second master's degree in [Computer Science](https://cs.usc.edu/) at [University of Southern California](https://www.usc.edu/). [[Resume](http://hyunjuna.github.io/files/Resume_HyunjunChoi_HRI.pdf)]
+* I hold a master's degree in data informatics at USC, and currently pursuing a second master's degree in [Computer Science](https://cs.usc.edu/) at [University of Southern California](https://www.usc.edu/). [[Resume](http://hyunjuna.github.io/files/RESUME_CHJ_102225.pdf)]
 
 * My interests lie within entrepreneurship, machine learning, deep learning , and software engineering; more specifically, I have conducted research on computer vision and neural network. In recent days, I have been attracted to apply deep reinforcement learning to recommender systems.
 
