@@ -1,6 +1,17 @@
 /* ==========================================================================
    BASE ELEMENTS
    ========================================================================== */
+
+::selection {
+  background: rgba($dark-accent, 0.3);
+  color: $dark-text;
+}
+
+::-moz-selection {
+  background: rgba($dark-accent, 0.3);
+  color: $dark-text;
+}
+
 html {
   /* sticky footer fix */
   position: relative;

@@ -2,14 +2,23 @@
 
 <section class="hero">
   <div class="hero__inner">
+    <div class="hero__terminal-bar">
+      <span class="hero__terminal-dot hero__terminal-dot--red"></span>
+      <span class="hero__terminal-dot hero__terminal-dot--yellow"></span>
+      <span class="hero__terminal-dot hero__terminal-dot--green"></span>
+      <span class="hero__terminal-path">~/{{ site.author.name | slugify }}</span>
+    </div>
+
     <div class="hero__profile">
       {% if site.author.avatar %}
       <div class="hero__avatar">
         <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+        <span class="hero__status-dot" title="Online"></span>
       </div>
       {% endif %}
 
       <div class="hero__info">
+        <p class="hero__greeting"><span class="hero__prompt">&gt;</span> Hello, I am</p>
         <h1 class="hero__title">{{ site.author.name }}</h1>
 
         {% if site.author.bio %}
@@ -47,21 +56,24 @@
         </div>
 
         <div class="hero__cta">
-          <a href="{{ base_path }}/projects/" class="btn btn--primary">View Projects</a>
-          <a href="{{ base_path }}/resume/" class="btn btn--outline">Resume</a>
+          <a href="{{ base_path }}/projects/" class="btn btn--primary"><i class="fas fa-code"></i> View Projects</a>
+          <a href="{{ base_path }}/resume/" class="btn btn--outline"><i class="fas fa-file-alt"></i> Resume</a>
         </div>
       </div>
     </div>
 
+    <div class="hero__divider"></div>
+
     <div class="hero__tags">
-      <span class="hero__tag">Python</span>
-      <span class="hero__tag">Machine Learning</span>
-      <span class="hero__tag">Deep Learning</span>
-      <span class="hero__tag">Computer Vision</span>
-      <span class="hero__tag">Reinforcement Learning</span>
-      <span class="hero__tag">LLMs</span>
-      <span class="hero__tag">Biomedical AI</span>
-      <span class="hero__tag">Clinical Data Science</span>
+      <span class="hero__tags-label"><span class="hero__prompt">&gt;</span> skills</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Python</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Machine Learning</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Deep Learning</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Computer Vision</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Reinforcement Learning</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>LLMs</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Biomedical AI</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Clinical Data Science</span>
     </div>
   </div>
 </section>

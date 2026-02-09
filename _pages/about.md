@@ -9,8 +9,34 @@ redirect_from:
   - /about.html
 ---
 
-* I am a Research Data Scientist at the Centre for AI Research and Education, Department of Computational Biomedicine, [Cedars-Sinai Medical Center](https://www.cedars-sinai.org/). My research focuses on deep learning, machine learning, and large language models applied to biomedical and clinical data. [[Resume](http://hyunjuna.github.io/files/RESUME_CHJ_102225.pdf)]
+<div class="about-section">
+  <div class="about-card about-card--full">
+    <div class="about-card__icon">
+      <i class="fas fa-microscope"></i>
+    </div>
+    <div class="about-card__content">
+      <div class="about-card__title">Research</div>
+      <p>I am a Research Data Scientist at the Centre for AI Research and Education, Department of Computational Biomedicine, <a href="https://www.cedars-sinai.org/">Cedars-Sinai Medical Center</a>. My research focuses on deep learning, machine learning, and large language models applied to biomedical and clinical data. <a href="http://hyunjuna.github.io/files/RESUME_CHJ_102225.pdf">[Resume]</a></p>
+    </div>
+  </div>
 
-* My interests include deep learning for physiological time-series data, synthetic data generation for clinical applications, knowledge graph-enhanced LLM reasoning, and automated machine learning.
+  <div class="about-card">
+    <div class="about-card__icon">
+      <i class="fas fa-brain"></i>
+    </div>
+    <div class="about-card__content">
+      <div class="about-card__title">Interests</div>
+      <p>Deep learning for physiological time-series data, synthetic data generation for clinical applications, knowledge graph-enhanced LLM reasoning, and automated machine learning.</p>
+    </div>
+  </div>
 
-* I hold two Master's degrees in Computer Science (2022) and Data Informatics (2018) from the [University of Southern California](https://www.usc.edu/), and a Bachelor's degree in Computer Science from [Inha University](http://eng.inha.ac.kr/mbshome/mbs/eng/index.do) (2016).
+  <div class="about-card">
+    <div class="about-card__icon">
+      <i class="fas fa-graduation-cap"></i>
+    </div>
+    <div class="about-card__content">
+      <div class="about-card__title">Education</div>
+      <p>Two Master's degrees in Computer Science (2022) and Data Informatics (2018) from <a href="https://www.usc.edu/">USC</a>, and a B.S. in Computer Science from <a href="http://eng.inha.ac.kr/mbshome/mbs/eng/index.do">Inha University</a> (2016).</p>
+    </div>
+  </div>
+</div>

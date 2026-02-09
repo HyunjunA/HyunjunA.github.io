@@ -57,6 +57,15 @@ $dark-accent-hover          : #79c0ff;
 $dark-border                : #30363d;
 $dark-footer-bg             : #010409;
 
+/* glassmorphism & glow */
+$dark-glow-accent           : rgba(88, 166, 255, 0.35);
+$dark-glow-accent-strong    : rgba(88, 166, 255, 0.6);
+$dark-gradient-end           : #1f6feb;
+$dark-glass-bg              : rgba(22, 27, 34, 0.6);
+$dark-glass-border          : rgba(48, 54, 61, 0.5);
+$dark-accent-dim            : rgba(88, 166, 255, 0.15);
+$dark-green-accent          : #3fb950;
+
 $gray                       : #8b949e;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
