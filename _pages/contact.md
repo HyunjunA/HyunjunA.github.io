@@ -5,6 +5,6 @@ permalink: /contact/
 author_profile: true
 ---
 
-Department of Computer Science, Viterbi School of Engineering, University of Southern California<br>
-941 Bloom Walk, Los Angeles, CA 90089<br>
-Email: choi797 [at] usc.edu
+Centre for AI Research and Education, Department of Computational Biomedicine<br>
+Cedars-Sinai Medical Center, Los Angeles, CA<br>
+Email: choirene [at] alumni.usc.edu
