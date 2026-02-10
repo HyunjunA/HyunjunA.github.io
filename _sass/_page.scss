@@ -6,7 +6,6 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-top: 4em;
   padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
@@ -15,18 +14,6 @@
   @include breakpoint($x-large) {
     max-width: $x-large;
   }
-}
-
-/* On home page, hero already provides spacing — use .home-archive parent */
-#main:has(.home-archive) {
-  padding-top: 0;
-  margin-top: 0;
-}
-
-/* Fallback for browsers without :has() */
-.home-main {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
 }
 
 .page {

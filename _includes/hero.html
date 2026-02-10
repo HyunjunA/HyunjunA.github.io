@@ -1,90 +1,79 @@
 {% include base_path %}
 
-<section class="hero-v2">
-  <!-- Aurora background -->
-  <div class="hero-v2__aurora">
-    <div class="hero-v2__aurora-layer hero-v2__aurora-layer--1"></div>
-    <div class="hero-v2__aurora-layer hero-v2__aurora-layer--2"></div>
-    <div class="hero-v2__aurora-layer hero-v2__aurora-layer--3"></div>
-  </div>
-
-  <!-- Noise overlay -->
-  <div class="hero-v2__noise"></div>
-
-  <!-- Floating shapes -->
-  <div class="hero-v2__shapes">
-    <div class="hero-v2__shape hero-v2__shape--1"></div>
-    <div class="hero-v2__shape hero-v2__shape--2"></div>
-    <div class="hero-v2__shape hero-v2__shape--3"></div>
-    <div class="hero-v2__shape hero-v2__shape--4"></div>
-  </div>
-
-  <!-- Content -->
-  <div class="hero-v2__content">
-    {% if site.author.avatar %}
-    <div class="hero-v2__avatar-wrap">
-      <div class="hero-v2__avatar-ring"></div>
-      <div class="hero-v2__avatar-ring-inner"></div>
-      <img class="hero-v2__avatar" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
-    </div>
-    {% endif %}
-
-    <h1 class="hero-v2__name">{{ site.author.name }}</h1>
-
-    <p class="hero-v2__tagline">
-      <span id="typewriter-text"></span><span class="hero-v2__cursor"></span>
-    </p>
-
-    {% if site.author.location %}
-    <p class="hero-v2__location">
-      <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ site.author.location }}
-    </p>
-    {% endif %}
-
-    <div class="hero-v2__tags">
-      <span class="hero-v2__tag">Python</span>
-      <span class="hero-v2__tag">Machine Learning</span>
-      <span class="hero-v2__tag">Deep Learning</span>
-      <span class="hero-v2__tag">Computer Vision</span>
-      <span class="hero-v2__tag">Reinforcement Learning</span>
-      <span class="hero-v2__tag">LLMs</span>
-      <span class="hero-v2__tag">Biomedical AI</span>
-      <span class="hero-v2__tag">Clinical Data Science</span>
+<section class="hero">
+  <div class="hero__inner">
+    <div class="hero__terminal-bar">
+      <span class="hero__terminal-dot hero__terminal-dot--red"></span>
+      <span class="hero__terminal-dot hero__terminal-dot--yellow"></span>
+      <span class="hero__terminal-dot hero__terminal-dot--green"></span>
+      <span class="hero__terminal-path">~/{{ site.author.name | slugify }}</span>
     </div>
 
-    <div class="hero-v2__social">
-      {% if site.author.email %}
-        <a href="mailto:{{ site.author.email }}" title="Email"><i class="fas fa-fw fa-envelope"></i></a>
+    <div class="hero__profile">
+      {% if site.author.avatar %}
+      <div class="hero__avatar">
+        <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+        <span class="hero__status-dot" title="Online"></span>
+      </div>
       {% endif %}
-      {% if site.author.github %}
-        <a href="https://github.com/{{ site.author.github }}" title="GitHub"><i class="fab fa-fw fa-github"></i></a>
-      {% endif %}
-      {% if site.author.linkedin %}
-        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn"><i class="fab fa-fw fa-linkedin"></i></a>
-      {% endif %}
-      {% if site.author.twitter %}
-        <a href="https://twitter.com/{{ site.author.twitter }}" title="Twitter"><i class="fab fa-fw fa-twitter"></i></a>
-      {% endif %}
-      {% if site.author.googlescholar %}
-        <a href="{{ site.author.googlescholar }}" title="Google Scholar"><i class="fas fa-fw fa-graduation-cap"></i></a>
-      {% endif %}
-      {% if site.author.orcid %}
-        <a href="{{ site.author.orcid }}" title="ORCID"><i class="ai ai-orcid"></i></a>
-      {% endif %}
-      {% if site.author.researchgate %}
-        <a href="{{ site.author.researchgate }}" title="ResearchGate"><i class="fab fa-fw fa-researchgate"></i></a>
-      {% endif %}
+
+      <div class="hero__info">
+        <p class="hero__greeting"><span class="hero__prompt">&gt;</span> Hello, I am</p>
+        <h1 class="hero__title">{{ site.author.name }}</h1>
+
+        {% if site.author.bio %}
+        <p class="hero__tagline">{{ site.author.bio }}</p>
+        {% endif %}
+
+        {% if site.author.location %}
+        <p class="hero__location">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ site.author.location }}
+        </p>
+        {% endif %}
+
+        <div class="hero__social">
+          {% if site.author.email %}
+            <a href="mailto:{{ site.author.email }}" title="Email"><i class="fas fa-fw fa-envelope"></i></a>
+          {% endif %}
+          {% if site.author.github %}
+            <a href="https://github.com/{{ site.author.github }}" title="GitHub"><i class="fab fa-fw fa-github"></i></a>
+          {% endif %}
+          {% if site.author.linkedin %}
+            <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn"><i class="fab fa-fw fa-linkedin"></i></a>
+          {% endif %}
+          {% if site.author.twitter %}
+            <a href="https://twitter.com/{{ site.author.twitter }}" title="Twitter"><i class="fab fa-fw fa-twitter"></i></a>
+          {% endif %}
+          {% if site.author.googlescholar %}
+            <a href="{{ site.author.googlescholar }}" title="Google Scholar"><i class="fas fa-fw fa-graduation-cap"></i></a>
+          {% endif %}
+          {% if site.author.orcid %}
+            <a href="{{ site.author.orcid }}" title="ORCID"><i class="ai ai-orcid"></i></a>
+          {% endif %}
+          {% if site.author.researchgate %}
+            <a href="{{ site.author.researchgate }}" title="ResearchGate"><i class="fab fa-fw fa-researchgate"></i></a>
+          {% endif %}
+        </div>
+
+        <div class="hero__cta">
+          <a href="{{ base_path }}/projects/" class="btn btn--primary"><i class="fas fa-code"></i> View Projects</a>
+          <a href="{{ base_path }}/resume/" class="btn btn--outline"><i class="fas fa-file-alt"></i> Resume</a>
+        </div>
+      </div>
     </div>
 
-    <div class="hero-v2__cta">
-      <a href="{{ base_path }}/projects/" class="btn btn-v2--primary"><i class="fas fa-code"></i> View Projects</a>
-      <a href="{{ base_path }}/resume/" class="btn btn-v2--outline"><i class="fas fa-file-alt"></i> Resume</a>
-    </div>
-  </div>
+    <div class="hero__divider"></div>
 
-  <!-- Scroll indicator -->
-  <div class="hero-v2__scroll">
-    <span>Scroll</span>
-    <span class="hero-v2__scroll-arrow"><i class="fas fa-chevron-down"></i></span>
+    <div class="hero__tags">
+      <span class="hero__tags-label"><span class="hero__prompt">&gt;</span> skills</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Python</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Machine Learning</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Deep Learning</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Computer Vision</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Reinforcement Learning</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>LLMs</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Biomedical AI</span>
+      <span class="hero__tag"><span class="hero__tag-hash">#</span>Clinical Data Science</span>
+    </div>
   </div>
 </section>
