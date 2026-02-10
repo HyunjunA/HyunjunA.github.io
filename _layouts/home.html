@@ -4,8 +4,10 @@ layout: default
 
 {% include hero.html %}
 
-<div id="main" role="main">
-  <div class="archive archive--full">
+{% include home-sections.html %}
+
+<div id="main" class="home-main" role="main">
+  <div class="home-archive">
     {{ content }}
   </div>
 </div>
